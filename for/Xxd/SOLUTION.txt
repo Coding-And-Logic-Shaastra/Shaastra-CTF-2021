@@ -1,0 +1,4 @@
+The participant has to recognisze that this is a hex dump of a file using xxd
+Then all they have to do is 
+xxd -r temp.txt flag
+

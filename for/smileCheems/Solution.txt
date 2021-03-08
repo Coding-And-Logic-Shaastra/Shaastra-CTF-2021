@@ -1,0 +1,5 @@
+Run exiftool and check XP comment
+Decode the hex and get passphrase
+Then
+steghide extract -sf smilecheems.jpeg
+ShaastraCTF{its_doge_not_dog}

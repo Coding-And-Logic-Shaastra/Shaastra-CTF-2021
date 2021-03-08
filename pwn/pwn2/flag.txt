@@ -1,0 +1,1 @@
+ShaastraCTF{function_for_flag}

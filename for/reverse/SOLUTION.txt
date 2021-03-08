@@ -1,0 +1,5 @@
+The participants are given only the binary executable Crackmeifucan
+The passcode cannot be gotten using strings tool
+They have to disassemble the binary file and see what the code is doing and then enter the correct passcode
+Answer: SShaastra_CTF{inGLeCaEsaR}
+

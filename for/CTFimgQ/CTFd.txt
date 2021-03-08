@@ -1,0 +1,5 @@
+Question Name : Corrupted Disk
+
+Description : Cheems could not open this file and has come to you for help. Are you up for the task?
+
+Files to be added : cdata0.img

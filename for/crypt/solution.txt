@@ -1,0 +1,3 @@
+Hex encoded with morse
+Flag : 53686161737472614354467B676F6F646F6C646D6F7273657D
+ShaastraCTF{goodoldmorse}
