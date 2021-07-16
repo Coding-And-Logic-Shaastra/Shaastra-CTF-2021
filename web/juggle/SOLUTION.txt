@@ -1,0 +1,4 @@
+The question is based on php juggling
+The participants are given the php code of the website which uses md5 hashing
+They have to brute force and find another string which has the same hash value
+
