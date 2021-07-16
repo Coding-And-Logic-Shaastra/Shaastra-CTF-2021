@@ -1,0 +1,50 @@
+version: '3'
+services:
+      pwn1:
+        networks:
+                - default
+        build:
+                context: ./pwn/pwn1
+        pids_limit: 200
+        ports:
+                - "9999:9999"
+        restart: always
+      pwn2:
+        networks:
+                - default
+        build:
+                context: ./pwn/pwn2
+        pids_limit: 200
+        ports:
+                - "4322:4322"
+        restart: always
+      pwn3:
+        networks:
+                - default
+        build:
+                context: ./pwn/pwn3
+        pids_limit: 200
+        ports:
+                - "4355:4322"
+        restart: always
+      web1:
+        build:
+                context: ./web/juggle
+        ports:
+                - 7100:80
+                
+      web2:
+        build:
+                context: ./web/track/src
+        ports:
+                - 7255:5000
+      web3:
+        build:
+                context: ./web/Robots
+        ports:
+                - 7423:80
+      web4:
+        build:
+                context: ./web/dogclub64
+        ports:
+                - 7615:80
